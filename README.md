@@ -1,7 +1,7 @@
 ## Napoleon Console
 
-[<img src="img/menu.png">]
-[<img src="img/sokoban.png">]
+<img src="img/menu.png">
+<img src="img/sokoban.png">
 
 This small game console is made of  [Waveshare RP2040-PiZero](https://www.waveshare.com/rp2040-pizero.htm) and [1.3inch 240x240 IPS LCD display HAT](https://www.waveshare.com/1.3inch-lcd-hat.htm). The games are stored statically in the flash and the size of flash is 16MB. 
 
@@ -18,8 +18,8 @@ Hold the boot button on the board and plug it to PC. New removable drive will ap
 
 Even if we put rp2040 into deep sleep mode, other accessories will drain the power from the battery. Therefore, we will use a switch to cut off the battery power from the system. You will need to turn **ON** this switch when charging the battery.
 
-[<img src="img/wiring1.png">]
-[<img src="img/wiring2.png">]
+<img src="img/wiring1.png">
+<img src="img/wiring2.png">
 
 ## Compiling Firmware
 Install Arduino IDE and add the following board URL: 
