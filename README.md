@@ -1,4 +1,4 @@
-## Napoleon Console
+## Napoleon Console for Raspberry Pi Pico
 
 <img src="img/menu.png">
 <img src="img/sokoban.png">
