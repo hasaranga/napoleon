@@ -156,7 +156,7 @@ const uint8_t sokoban_level_12[] PROGMEM = {
 
 const uint8_t sokoban_level_13[] PROGMEM = {
 	SK_GB, SK_GB, SK_GB, SK_GB, SK_GB, SK_GB, SK_GB, SK_GB,
-	SK_GB, SK_GB, SK_GB, SK_GB, SK_EB, SK_EB, SK_GB, SK_GB,
+	SK_GB, SK_GB, SK_GB, SK_EB, SK_EB, SK_EB, SK_GB, SK_GB,
 	SK_GB, SK_GB, SK_PB, SK_PB, SK_RB, SK_EB, SK_GB, SK_GB,
 	SK_GB, SK_GB, SK_EB, SK_PB, SK_RB, SK_RB, SK_EB, SK_GB,
 	SK_GB, SK_GB, SK_PL, SK_EB, SK_PB, SK_EB, SK_EB, SK_GB,
