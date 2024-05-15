@@ -16,7 +16,7 @@ Hold the boot button on the board and plug it to PC. New removable drive will ap
 
 ## Installing Battery
 
-Even if we put rp2040 into deep sleep mode, other accessories will drain the power from the battery. Therefore, we will use a switch to cut off the battery power from the system. You will need to turn **ON** this switch when charging the battery.
+Even if we put rp2040 into deep sleep mode, other accessories will drain the power from the battery. Therefore, we will use a switch to cut off the battery power from the system. The positive wire of the battery will go through the switch. You will need to turn **ON** this switch when charging the battery.
 
 <img src="img/wiring1.png">
 <img src="img/wiring2.png">
