@@ -9,6 +9,7 @@ class SettingsStore
 {
 	static const int BACKLIGHT_ADDR = 0;
 	static const int SOKOBAN_LEVEL_ADDR = 1;
+	static const int WATERSORT_LEVEL_ADDR = 2;
 public:
 	static const uint8_t DEFAULT_BACKLIGHT_LEVEL = 100;
 	static const int MIN_BACKLIGHT = 20;
@@ -44,6 +45,16 @@ public:
 	static uint8_t readSokobanLevel()
 	{
 		return EEPROM.read(SOKOBAN_LEVEL_ADDR);
+	}
+
+	static void setWaterSortLevel(uint8_t level)
+	{
+		EEPROM.write(WATERSORT_LEVEL_ADDR, level);
+	}
+
+	static uint8_t readWaterSortLevel()
+	{
+		return EEPROM.read(WATERSORT_LEVEL_ADDR);
 	}
 
 	static void commit()

@@ -6,6 +6,7 @@
 #define ABOUT_VIEW_ID 4
 #define TIC_TAC_GAME_VIEW 5
 #define SOKOBAN_GAME_VIEW 6
+#define WATERSORT_GAME_VIEW 7
 
-#define GAME_COUNT 2
-#define GAME_LIST {"Tic Tac Toe", "Sokoban"}
+#define GAME_COUNT 3
+#define GAME_LIST {"Tic Tac Toe", "Sokoban", "Water Sort"}

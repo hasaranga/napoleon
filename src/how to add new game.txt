@@ -1,0 +1,5 @@
+Create a new folder within src folder. Create a new class which extends NView.
+add new id to ViewID.h. add name to GAME_LIST. increase GAME_COUNT.
+add to GameListView -> CENTER_KEY handler
+add to Napoleon_Console.ino
+add read/write methods to SettingsStore class for saving/reading game data.

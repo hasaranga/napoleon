@@ -142,6 +142,8 @@ public:
 				nextViewID = TIC_TAC_GAME_VIEW;
 			else if (currentGameIndex == 1)
 				nextViewID = SOKOBAN_GAME_VIEW;
+			else if (currentGameIndex == 2)
+				nextViewID = WATERSORT_GAME_VIEW;
 		}
 		else
 		{

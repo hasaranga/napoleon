@@ -1,1 +1,8 @@
 visit https://javl.github.io/image2cpp to convert images into array data.
+	there is a bug in that site. follow the instructions below...
+	first change "Code output format" to "Arduino Code Single Bitmap"
+	then "Draw mode" to "2 bytes per pixel(565)
+	then browse the file
+	hit "Generate Code"
+
+visit https://imageresizer.com to resize image.

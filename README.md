@@ -5,7 +5,7 @@
 
 This small game console is made of  [Waveshare RP2040-PiZero](https://www.waveshare.com/rp2040-pizero.htm) and [1.3inch 240x240 IPS LCD display HAT](https://www.waveshare.com/1.3inch-lcd-hat.htm). The games are stored statically in the flash and the size of flash is 16MB. 
 
-You can navigate the menu using joystick button on the HAT. Press the center of the joystick to enter. **KEY1** act as a back button. On **Sokoban** game, the **KEY3** act as undo and **KEY2** act as reset.
+You can navigate the menu using joystick button on the HAT. Press the center of the joystick to enter. **KEY1** act as a back button. On **Sokoban, Water Sort** games, the **KEY3** act as undo and **KEY2** act as reset.
 
 Settings and the game progress are stored in the special area of flash.
 
