@@ -15,26 +15,11 @@
 #define WS_PURPLE 6
 #define WS_BROWN 7
 
-#define WATERSORT_LEVEL_COUNT 23
+#define WATERSORT_LEVEL_COUNT 21
 
 // level format: bottle count, bar count, colours from bottom to top
 
 // levels from https://poki.com/en/g/water-color-sort
-
-const uint8_t watersort_level_1[] PROGMEM = {
-	3, 3, 
-	WS_RED, WS_YELLOW, WS_RED,
-	WS_YELLOW, WS_RED, WS_YELLOW,
-	WS_EMPTY, WS_EMPTY, WS_EMPTY
-};
-
-const uint8_t watersort_level_2[] PROGMEM = {
-	4, 3,
-	WS_RED, WS_BLUE, WS_YELLOW,
-	WS_YELLOW, WS_BLUE, WS_RED,
-	WS_YELLOW, WS_RED, WS_BLUE,
-	WS_EMPTY, WS_EMPTY, WS_EMPTY
-};
 
 const uint8_t watersort_level_3[] PROGMEM = {
 	4, 4,
@@ -261,7 +246,7 @@ const uint8_t watersort_level_23[] PROGMEM = {
 	WS_GREEN, WS_PURPLE, WS_RED, WS_EMPTY
 };
 
-const uint8_t* watersort_levels[] = { watersort_level_1, watersort_level_2, 
+const uint8_t* watersort_levels[] = {
 watersort_level_3, watersort_level_4, watersort_level_5, watersort_level_6,
 watersort_level_7, watersort_level_8,watersort_level_9,  watersort_level_10,
 watersort_level_11, watersort_level_12, watersort_level_13, watersort_level_14,
