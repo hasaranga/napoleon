@@ -15,7 +15,7 @@
 #define WS_PURPLE 6
 #define WS_BROWN 7
 
-#define WATERSORT_LEVEL_COUNT 21
+#define WATERSORT_LEVEL_COUNT 20
 
 // level format: bottle count, bar count, colours from bottom to top
 
@@ -180,18 +180,6 @@ const uint8_t watersort_level_17[] PROGMEM = {
 	WS_ORANGE, WS_BLUE, WS_EMPTY, WS_EMPTY
 };
 
-const uint8_t watersort_level_18[] PROGMEM = {
-	8, 4,
-	WS_BLUE, WS_BLUE, WS_BROWN, WS_PURPLE,
-	WS_RED, WS_BROWN, WS_PURPLE, WS_ORANGE,
-	WS_PURPLE, WS_PURPLE, WS_RED, WS_BLUE,
-	WS_BROWN, WS_BROWN, WS_ORANGE, WS_GREEN,
-	WS_GREEN, WS_YELLOW, WS_RED, WS_GREEN,
-	WS_ORANGE, WS_ORANGE, WS_YELLOW, WS_EMPTY,
-	WS_YELLOW, WS_YELLOW, WS_GREEN, WS_BLUE,
-	WS_RED, WS_EMPTY, WS_EMPTY, WS_EMPTY
-};
-
 const uint8_t watersort_level_19[] PROGMEM = {
 	7, 4,
 	WS_PURPLE, WS_PURPLE, WS_RED, WS_ORANGE,
@@ -250,6 +238,6 @@ const uint8_t* watersort_levels[] = {
 watersort_level_3, watersort_level_4, watersort_level_5, watersort_level_6,
 watersort_level_7, watersort_level_8,watersort_level_9,  watersort_level_10,
 watersort_level_11, watersort_level_12, watersort_level_13, watersort_level_14,
-watersort_level_15, watersort_level_16, watersort_level_17, watersort_level_18,
+watersort_level_15, watersort_level_16, watersort_level_17,
 watersort_level_19, watersort_level_20, watersort_level_21, watersort_level_22,
 watersort_level_23};
