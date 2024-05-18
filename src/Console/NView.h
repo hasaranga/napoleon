@@ -144,6 +144,8 @@ public:
 				nextViewID = SOKOBAN_GAME_VIEW;
 			else if (currentGameIndex == 2)
 				nextViewID = WATERSORT_GAME_VIEW;
+			else if (currentGameIndex == 3)
+				nextViewID = NUMBERSLIDE_GAME_VIEW;
 		}
 		else
 		{

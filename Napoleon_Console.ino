@@ -6,6 +6,7 @@
 #include "src/Tic-Tac-Toe/TicTac.h"
 #include "src/Sokoban/Sokoban.h"
 #include "src/WaterSort/WaterSort.h"
+#include "src/NumberSlide/NumberSlide.h"
 
 WSHat hat;
 GameListView gameListView;
@@ -15,6 +16,7 @@ AboutView aboutView;
 TicTacGameView ticTacGameView;
 SokobanGameView sokobanGameView;
 WaterSortGameView waterSortGameView;
+NumberSlideGameView numberSlideGameView;
 
 NView* currentView = nullptr;
 unsigned long lastTimeViewExit = 0;
@@ -35,6 +37,8 @@ NView* getViewByID(uint8_t viewID)
     return &sokobanGameView;   
   else if(viewID == WATERSORT_GAME_VIEW)
     return &waterSortGameView;
+  else if(viewID == NUMBERSLIDE_GAME_VIEW)
+    return &numberSlideGameView;
   else
     return &mainMenuView;    
 }
@@ -53,7 +57,8 @@ void setup() {
   ticTacGameView.init(&hat);
   sokobanGameView.init(&hat);
   waterSortGameView.init(&hat);
-
+  numberSlideGameView.init(&hat);
+  
   mainMenuView.start(false);
   currentView = &mainMenuView;
   lastTimeViewExit = millis();

@@ -7,6 +7,7 @@
 #define TIC_TAC_GAME_VIEW 5
 #define SOKOBAN_GAME_VIEW 6
 #define WATERSORT_GAME_VIEW 7
+#define NUMBERSLIDE_GAME_VIEW 8
 
-#define GAME_COUNT 3
-#define GAME_LIST {"Tic Tac Toe", "Sokoban", "Water Sort"}
+#define GAME_COUNT 4
+#define GAME_LIST {"Tic Tac Toe", "Sokoban", "Water Sort", "Number Slide"}

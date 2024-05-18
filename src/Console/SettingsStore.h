@@ -12,7 +12,7 @@ class SettingsStore
 	static const int WATERSORT_LEVEL_ADDR = 2;
 public:
 	static const uint8_t DEFAULT_BACKLIGHT_LEVEL = 100;
-	static const int MIN_BACKLIGHT = 20;
+	static const int MIN_BACKLIGHT = 10;
 	static const int MAX_BACKLIGHT = 255;
 
 	static void init()
